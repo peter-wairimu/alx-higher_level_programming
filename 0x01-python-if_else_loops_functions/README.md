@@ -22,3 +22,11 @@
 
 
 12-fizzbuzz.py - program that prints the numbers from 1 to 100. For multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
+13-insert_number.c - a function in C that inserts a number into a sorted singly linked list.
+
+100-print_tebahpla.py -  a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase) , not followed by a new line.
+
+101-remove_char_at.py - a  function that creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).
+
+102-magic_calculation.py -
