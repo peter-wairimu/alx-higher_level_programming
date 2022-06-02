@@ -26,6 +26,3 @@ if __name__ == "__main__":
     else:
         print("Unknown operator. Only +, -, * and / are supported.")
         sys.exit(1)
-
-
-
