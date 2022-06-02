@@ -14,3 +14,4 @@
 
 101-easy_print.py - a program that prints #pythoniscool, followed by a new line, in the standard output.
 
+102-magic_calculation.py - Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
