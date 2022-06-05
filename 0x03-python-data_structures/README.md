@@ -21,3 +21,9 @@
 9-max_integer.py - a function that returns the largest integer in a list.
 
 10-divisible_by_2.py - a function that finds all multiples of 2 in a list.
+
+11-delete_at.py - a function that deletes an element from a list at a specific position.
+
+12-switch.py - a function that switches the first and last elements of a list.
+
+13-is_palindrome.c - a function that checks if a string is a palindrome.
