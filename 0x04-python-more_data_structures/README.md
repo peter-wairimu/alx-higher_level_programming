@@ -28,3 +28,5 @@
 12-roman_to_int.py - a function that converts a roman number to an integer.
 
 101-square_matrix_map.py - a function that computes the square value of all integers of a matrix using map
+
+102-complex_delete.py - a function that deletes a key/value from a dictionary.
