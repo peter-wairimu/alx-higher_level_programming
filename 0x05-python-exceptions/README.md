@@ -22,3 +22,5 @@ It is an event, which occurs during the execution of a program that disrupts the
 | `101-safe_function.py` | a function that prints an integer.|
 
 
+|`102-magic_calculation.py`| Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+|
