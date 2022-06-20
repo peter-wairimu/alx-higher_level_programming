@@ -19,3 +19,6 @@ It is an event, which occurs during the execution of a program that disrupts the
 
 | `100-safe_print_integer_err.py` | a function that prints an integer.|
 
+| `101-safe_function.py` | a function that prints an integer.|
+
+
