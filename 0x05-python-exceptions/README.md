@@ -16,3 +16,6 @@ It is an event, which occurs during the execution of a program that disrupts the
 | `5-raise_exception.py` | a function that divides 2 integers and prints the result.|
 
 | `6-raise_exception_msg.py` | a function that divides 2 integers and prints the result.|
+
+| `100-safe_print_integer_err.py` | a function that prints an integer.|
+
