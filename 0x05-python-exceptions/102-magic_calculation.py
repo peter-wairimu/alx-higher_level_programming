@@ -1,11 +1,5 @@
 #!/usr/bin/python3
-from unittest import result
-
-
 def magic_calculation(a, b):
-    """
-    Calculate a + b
-    """
     result = 0
     for i in range(1,3):
         try:
