@@ -8,3 +8,4 @@ It is an event, which occurs during the execution of a program that disrupts the
 | Filename | Description |
 | -------- | ----------- |
 | `0-safe_print_list.py` | Function that prints `x` elements |
+| `1-safe_print_list.py` | a function that prints an integer with "{:d}".format()|
