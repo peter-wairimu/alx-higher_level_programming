@@ -2,6 +2,8 @@
 """
  Defines a Square class
 """
+
+
 class Square:
     """
     Represents a square
