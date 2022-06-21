@@ -2,11 +2,10 @@
 """Defines a class Square"""
 
 
-
 class Square:
-    """Reresents a square.
-    private instance attribute: size
-    Instatiation with optional.
+    """
+    Reresents a square.
+    
     """
 
     def __init__(self, size=0):
