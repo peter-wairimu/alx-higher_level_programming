@@ -6,4 +6,4 @@
 | Filename | Description |
 | -------- | ----------- |
 | `0-square.py` | an empty class Square that defines a square: |
-| `1-safe_print_list.py` | a function that prints an integer with "{:d}".format()|
+| `1-square.py` | a class Square that defines a square by: (based on 0-square.py)|
