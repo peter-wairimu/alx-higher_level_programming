@@ -3,33 +3,43 @@
 
 
 class Node:
+    """
+    Represents a node in a singly linked list
+    """
     def __init__(self, data, next_node=None):
+        """ Initialize the node """
         self.data = data
         self.next_node = next_node
 
     @property
     def data(self):
+        """ Returns the data of the node """
         return self.__data
 
     @data.setter
     def data(self, value):
+        """ Sets the data of the node """
         if not isinstance(value, int):
             raise TypeError("data must be an integer")
         self.__data = value
 
     @property
     def next_node(self):
+        """ Returns the next node """
         return self.__next_node
 
     @next_node.setter
     def next_node(self, value):
+        """ Sets the next node """
         if not isinstance(value, Node) and value is not None:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
 
 
 class SinglyLinkedList:
+    """ Represents a singly linked list """
     def __str__(self):
+        """ Returns a string representation of the list """
         rtn = ""
         ptr = self.__head
 
@@ -42,9 +52,11 @@ class SinglyLinkedList:
         return rtn
 
     def __init__(self):
+        """ Initialize the list """
         self.__head = None
 
     def sorted_insert(self, value):
+        """ Inserts a value in the list in sorted order """
         ptr = self.__head
 
         while ptr is not None:
