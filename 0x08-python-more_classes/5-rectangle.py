@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-
 """
 A class That defines a rectangle
 
 """
-
 
 
 class Rectangle:
