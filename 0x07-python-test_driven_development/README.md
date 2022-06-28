@@ -14,3 +14,5 @@
 | `5-text_indentation.py`|a function that prints a text with 2 new lines after each of these characters: ., ? and : |
 
 
+|`100-matrix_mul.py`|  a function that multiplies 2 matrices:|
+|`101-lazy_matrix_mul.py`|  a function that multiplies 2 matrices by using the module NumPy|
