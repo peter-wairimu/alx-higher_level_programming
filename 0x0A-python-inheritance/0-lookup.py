@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Module 0-lookup.
+"""
+Module 0-lookup.
 Returns a list of available attributes and methods of an obj.
 """
 
