@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/python3
 """Module 9-rectangle.py.
 Inherits from BaseGeometry.
