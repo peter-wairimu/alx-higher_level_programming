@@ -26,4 +26,3 @@ def pascal_triangle(n):
             else:
                 triangle[i][j] = triangle[i - 1][0]
     return triangle
-    
