@@ -1,18 +1,20 @@
-#!/usr/bin/python3
-"""Module 1-write_file.py.
-writes a string to a text file.
+#!usr/bin/python3
+"""
+Module that contains a function that retuns the number of lines in a file
 """
 
 
 def write_file(filename="", text=""):
-    """writes a string to a text file and
-    returns the number of characters written.
+    """ Function that writes to a file
+
     Args:
-       - filename: name of the file.
-       - text: string of text to write.
-    Return:
-         number of characters written.
+        filename: filename
+        text: text to write
+
+    Raises
+        Exception: when the file can be opened
+
     """
 
-    with open(filename, mode='w+') as myfile:
-        return myfile.write(text)
+    with open(filename, mode='w+') as f:
+        return f.write(text)
