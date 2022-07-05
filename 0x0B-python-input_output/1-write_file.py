@@ -12,7 +12,7 @@ def write_file(filename="", text=""):
         filename: name of the file.
        
     Return:
-         number of characters written.
+        number of characters written.
     """
 
     with open(filename, mode='w+') as myfile:
