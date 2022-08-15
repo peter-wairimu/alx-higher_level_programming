@@ -61,4 +61,4 @@
 |`102-rating_shows.sql`| script that lists all shows from hbtn_0d_tvshows_rate by their rating. |
 
 |`103-rating_genres.sql`| script that lists all genres in the database hbtn_0d_tvshows_rate by their rating.|
-## Read
+## Readme
