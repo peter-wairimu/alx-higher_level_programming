@@ -6,7 +6,7 @@
 
 - Shell Scripts are written in Bash 4.3.11(1)
 -  Python Scripts are written with Python 3.8.10
-- MySQL 5.8
+- MySQL 8.0
   - sqlalchemy, version 1.4.51
 - Ubuntu 20.04 LTS
    

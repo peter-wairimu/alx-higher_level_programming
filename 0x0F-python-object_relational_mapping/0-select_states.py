@@ -1,18 +1,17 @@
 #!/usr/bin/python3
-
 """
-A script that lists states from the databases
+Lists all states from the database hbtn_0e_0_usa
 """
-
 import sys
 import MySQLdb
-
+# grant all privileges on *.* to root@localhost identified by 'wairimu' with grant option;
 if __name__ == '__main__':
-    db = MySQLdb.connect(user=sys.argv[1], paswrd= sys.argv[2],db=sys.argv[3], port=3306)
+    db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2],
+                         db=sys.argv[3], port=3306)
 
-    rel = db.cursor()
-    rel.execute('SELECT * FROM states;')
-    states = rel.fetchall()
+    cur = db.cursor()
+    cur.execute("SELECT * FROM states;")
+    states = cur.fetchall()
 
     for state in states:
         print(state)
