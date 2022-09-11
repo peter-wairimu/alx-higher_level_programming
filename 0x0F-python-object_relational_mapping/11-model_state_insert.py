@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Changes the name of a state object from the database
+Adds the State object "Lousiana" to the database hbtn_0e_6_usa
 """
-
 import sys
 from model_state import Base, State
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+
 
 if __name__ == '__main__':
     engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'.
@@ -15,8 +15,9 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    stateUpdated = session.query(State).filter(State.id == 2).first()
+    newState = State(name='Louisiana')
+    session.add(newState)
+    session.commit()
 
-    if stateUpdated:
-        stateUpdated.name = 'New Mexico'
-        session.commit()
+    print(newState.id)
+
