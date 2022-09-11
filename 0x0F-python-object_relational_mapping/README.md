@@ -20,8 +20,8 @@
 | `3-my_safe_filter_states.py` | a script that takes in arguments and displays all values in the states table of hbtn_0e_0_usa. |
 | `4-cities_by_state.py` | script that lists all cities from the database hbtn_0e_4_usa. |
 | `5-filter_cities.py` | script that takes in the name of a state as an argument and lists all cities of that state, using the database hbtn_0e_4_usa. |
-| `` | a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument. |
-| `` | a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument. |
+| `model_state.py` | file that contains the class definition of a State and an instance Base = declarative_base():. |
+| `7-model_state_fetch_all.py` | script that lists all State objects from the database hbtn_0e_6_usa. |
 | `` | a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument. |
 | `` | a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument. |
 | `` | a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument. |
