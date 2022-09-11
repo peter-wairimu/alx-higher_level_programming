@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 """
-List all cities from database
-
+List all cities from a database
 """
-
 import sys
 import MySQLdb
 
@@ -17,4 +15,4 @@ if __name__ == '__main__':
     states = city.fetchall()
 
     for state in states:
-        print(states)
+        print(state)
