@@ -19,10 +19,10 @@ def FindAPeak(arr, i, j):
 
 def find_peak(list_of_integers):
     """Pass to the list"""
-    l = list_of_integers
+    l_peak = list_of_integers
 
-    if len(l) == 0:
+    if len(l_peak) == 0:
         return None
 
-    peak = FindAPeak(l, 0, len(l) - 1)
+    peak = FindAPeak(l_peak, 0, len(l_peak) - 1)
     return peak
