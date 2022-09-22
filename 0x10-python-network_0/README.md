@@ -12,5 +12,5 @@
 | `4-header.sh` |  Bash script that takes in a URL as an argument, sends a GET request to the URL, and displays the body of the response|
 | `5-post_params.sh` |  Bash script that takes in a URL, sends a POST request to the passed URL|
 | `6-peak.py` |  function that finds a peak in a list of unsorted integers.|
-| `4-header.sh` |  Bash script that takes in a URL as an argument, sends a GET request to the URL, and displays the body of the response|
+| `100-status_code.sh` | Bash script that sends a request to a URL passed as an argument|
 | `4-header.sh` |  Bash script that takes in a URL as an argument, sends a GET request to the URL, and displays the body of the response|
