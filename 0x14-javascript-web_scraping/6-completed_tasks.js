@@ -13,4 +13,4 @@ request.get(url, function (err, response, body) {
     }
     console.log(newDict);
   }
-})
+});
